@@ -12,6 +12,7 @@ pip install eikon
 3) Import the Eikon Python and set your AppID (while the Eikon is running):
 import eikon
 eikon.set_app_key('xxxxxxxxxxxxxxxxxxxxxxx')
+
 4) Now you can use the following commands:
 eikon.get_symbology()
 eikon.get_news_headlines()
